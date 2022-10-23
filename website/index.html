@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather Journal</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="headerDiv"><h2>Weather Journal</h2></div>
+      <div class="theImages">
+        <img
+          class="logos"
+          src="https://www.wetter.de/css/images/icons/weather/og-images/005_L.png"
+          alt="sun-cloud"
+        />
+        <img
+          class="logos"
+          src="https://www.wetter.de/css/images/icons/weather/og-images/001_L.png"
+          alt="sun"
+        />
+        <img
+          class="logos"
+          src="https://www.wetter.de/css/images/icons/weather/og-images/022_L.png"
+          alt="rain"
+        />
+        <img
+          class="logos"
+          src="https://www.wetter.de/css/images/icons/weather/og-images/099_L.png"
+          alt="wind"
+        />
+      </div>
+      <div class="holderZip">
+        <div>
+          <label class="labels" for="zip">Enter Zipcode here</label>
+        </div>
+        <div style="padding-top: 5px; padding-bottom: 5px">
+          <input type="text" id="zip" placeholder="Enter zip code here" />
+        </div>
+      </div>
+      <div class="holder feel">
+        <div style="padding-bottom: 5px">
+          <label class="labels" for="feelings"
+            >How are you feeling today?</label
+          >
+        </div>
+        <div>
+          <textarea
+            class="myInput"
+            id="feelings"
+            placeholder="Enter your feelings here"
+            rows="7"
+            cols="35"
+          ></textarea>
+        </div>
+        <button id="generate" type="submit">Generate</button>
+      </div>
+      <div class="holder entry">
+        <div class="labels">Most Recent Entry</div>
+        <div id="entryHolder">
+          <div style="padding-bottom: 2px; font-family: Oswald" id="date"></div>
+          <div style="padding-bottom: 2px; font-family: Oswald" id="temp"></div>
+          <div
+            style="padding-bottom: 2px; font-family: Oswald"
+            id="content"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>

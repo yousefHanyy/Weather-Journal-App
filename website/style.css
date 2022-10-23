@@ -1,0 +1,60 @@
+body {
+  background-color: #f2f6ff;
+  margin: none;
+}
+
+h2 {
+  font-size: 32px;
+  padding-top: 15px;
+  font-family: "Oswald", sans-serif;
+}
+
+#app {
+  text-align: center;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  background-color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+#zip {
+  padding: 3px;
+}
+.labels {
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+#generate {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 15px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  transition: all 0.2s;
+}
+#generate:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.658);
+  cursor: pointer;
+}
+.logos {
+  width: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.theImages {
+  background-color: #f2f6ff;
+}
+.holderZip {
+  padding-top: 5px;
+}
