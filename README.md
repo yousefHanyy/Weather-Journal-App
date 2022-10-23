@@ -1,10 +1,35 @@
 # Weather-Journal App Project
 
-## Overview
-This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+- A training project supervised by Udacity.
 
-## Instructions
-This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
+## Table of Contents
 
-## Extras
-If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
+- [Author](#Author)
+- [Description](#Description)
+- [Usage](#Usage)
+- [Techs](#Techs)
+
+## Description
+
+A weather application focused on using the node.js runtime environment for the first time and using the OpenWeather API for fetching weather data when provided an American ZIP code and display it to the user.
+
+## Techs
+
+1-HTML
+2-CSS3
+3-ES6
+
+## Author
+
+Yousef Hany Mahmoud
+
+## Usage
+
+- Enter the wanted ZIP code (ensure that it is an American ZIP code).
+
+- Type 'How you are feeling today' in the provided text field.
+
+- Clicking the generate button would provide you with the following:
+  - Date
+  - Degree (Imperial)
+  - The feeling message you typed.
